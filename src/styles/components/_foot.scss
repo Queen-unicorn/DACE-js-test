@@ -1,0 +1,14 @@
+.foot{
+    max-height: 996px;
+    background-image: url("../../src/img/background_footer.svg");
+    background-repeat: no-repeat;
+    color: $white;
+
+}
+
+@media (max-width: 900px){
+    .foot{
+        max-height: none;
+        background-size: cover;
+    }
+}
